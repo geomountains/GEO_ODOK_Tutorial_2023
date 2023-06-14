@@ -7,7 +7,6 @@ THISDIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 psql postgres -c "CREATE USER postgres PASSWORD 'Postgres1'"
 #The -O flag below sets the user: createdb -O DBUSER DBNAME
 
-sudo su postgres
 createdb template_postgis
 
 psql -d template_postgis -c "CREATE EXTENSION postgis;"
