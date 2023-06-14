@@ -4,8 +4,8 @@ set -eux
 THISDIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 
 #Demo PostgreSQL Database initialisation
-psql postgres -c "CREATE USER testuser PASSWORD 'testpass'"
+psql postgres -c "CREATE USER postgres PASSWORD 'Postgres1'"
 #The -O flag below sets the user: createdb -O DBUSER DBNAME
-createdb -O testuser testdb
+createdb -O postgres tutorial
 
-psql -d testdb -U testuser -f $THISDIR/seed_db.sql
+psql -d tutorial -U postgres -f $THISDIR/seed_db.sql
