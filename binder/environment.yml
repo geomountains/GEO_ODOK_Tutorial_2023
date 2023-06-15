@@ -6,6 +6,7 @@ dependencies:
   - psycopg2
   - postgis
   - gdal
+  - tornado
   - pip
   - pip:
     - pandas
