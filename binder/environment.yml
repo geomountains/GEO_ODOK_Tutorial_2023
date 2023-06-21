@@ -4,6 +4,7 @@ channels:
 dependencies:
   - postgresql
   - psycopg2
+  - matplotlib
   - postgis
   - gdal
   - pip
