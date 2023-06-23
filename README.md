@@ -10,6 +10,6 @@ James M. Thornton, Mountain Research Initiative (MRI), c/o University of Bern, S
 
 15 June 2023
 
-Content under Creative Commons Attribution license CC-BY 4.0
-Code under MIT License
+Content under Creative Commons Attribution license CC-BY 4.0; Code under MIT License
+
 © 2023 James Thornton
